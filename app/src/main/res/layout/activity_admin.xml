@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/dd"
+    tools:context="com.example.neha.attendancesystem.Admin">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/a"
+        android:layout_marginBottom="50dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/adminName"
+        android:background="@drawable/background"
+        android:textColor="#000"
+        android:padding="8dp"
+        android:textColorHint="#9e9c9c"
+        android:drawableLeft="@drawable/ic_person_add"
+        android:layout_marginBottom="10dp"
+        android:inputType="textPersonName"
+        android:hint="UserName"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/adminPassword"
+        android:background="@drawable/background"
+        android:padding="8dp"
+        android:textColor="#000"
+        android:textColorHint="#9e9c9c"
+        android:drawableLeft="@drawable/ic_lock_open"
+        android:layout_marginBottom="10dp"
+        android:hint="Password"
+        android:inputType="textPassword" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/adminCpassword"
+        android:background="@drawable/background"
+        android:padding="8dp"
+        android:textColor="#000"
+        android:textColorHint="#9e9c9c"
+        android:drawableLeft="@drawable/ic_lock"
+        android:layout_marginBottom="10dp"
+        android:inputType="textPassword"
+        android:hint="Confirm Password" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:text="Create Account"
+        android:id="@+id/adminSignup"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:background="@drawable/res_background" />
+
+
+
+</LinearLayout>

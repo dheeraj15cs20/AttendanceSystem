@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "155899718796",
+    "firebase_url": "https://attendancesystem-a46d1.firebaseio.com",
+    "project_id": "attendancesystem-a46d1",
+    "storage_bucket": "attendancesystem-a46d1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:155899718796:android:b7816602219c5416",
+        "android_client_info": {
+          "package_name": "com.example.neha.attendancesystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "155899718796-hjnqf3ngt38d5oj7g2pe8o3110jd30jm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.neha.attendancesystem",
+            "certificate_hash": "0c97837569c79c842d44697793491833a7a3561c"
+          }
+        },
+        {
+          "client_id": "155899718796-31omuehj2rg69n51o6jac91tp5l63n3a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCByUeAip9GXefXU05ho_EtHuvSL1CF-sE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "155899718796-31omuehj2rg69n51o6jac91tp5l63n3a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

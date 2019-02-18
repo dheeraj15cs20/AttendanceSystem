@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/FL1"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#e7daad"
+    tools:context="com.example.neha.attendancesystem.Register">
+
+        <ImageView
+            android:layout_width="200px"
+            android:layout_height="200px"
+            android:id="@+id/Iv1"
+            android:background= "@drawable/student"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Student Registration"
+            android:layout_marginBottom="20dp"
+            android:textStyle="bold"
+            android:textColor="#000"/>
+        <ImageView
+            android:layout_width="200px"
+            android:layout_height="200px"
+            android:id="@+id/Iv2"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/teac"/>
+         <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Teacher Registration"
+            android:layout_marginBottom="20dp"
+            android:textStyle="bold"
+            android:textColor="#000"/>
+
+
+        <ImageView
+           android:layout_width="200px"
+           android:layout_height="200px"
+           android:id="@+id/Iv3"
+           android:layout_marginTop="10dp"
+           android:background="@drawable/admin"
+        />
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Admin Registration"
+             android:textStyle="bold"
+             android:textColor="#000"/>
+
+
+</LinearLayout>
+</FrameLayout>

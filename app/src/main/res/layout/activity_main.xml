@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/d"
+    android:gravity="center"
+    tools:context="com.example.neha.attendancesystem.MainActivity">
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/iv1"
+        android:layout_gravity="center"
+        android:src="@drawable/a"
+        android:layout_marginBottom="30dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv1"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textColor="#e24d07"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Username"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:hint="Email"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:drawableLeft="@drawable/ic_person"
+        android:layout_marginBottom="10dp"
+        android:inputType="text"
+        android:id="@+id/et1"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textColor="#e24d07"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Password" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:hint="Password"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/et2"
+        android:inputType="textPassword"
+        android:drawableLeft="@drawable/ic_lock" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt1"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="Log In"
+        android:textColor="#f73a06"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/but_background"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/bt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/but1_background"
+        android:text="Register"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#f73904"
+        android:textStyle="bold" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt3"
+        android:text="Forget Password??"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:background="@null"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/LL1"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/iv2"
+            android:layout_marginLeft="30dp"
+            android:layout_weight="1"
+            android:src="@drawable/fb" />
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/iv3"
+            android:layout_marginRight="30dp"
+            android:layout_weight="1"
+            android:src="@drawable/ggl"  />
+    </LinearLayout>
+
+</LinearLayout>
